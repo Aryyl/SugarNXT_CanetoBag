@@ -3,7 +3,7 @@
 
 SugarMill AI is a state-of-the-art enterprise monitoring platform built to visualize complex industrial processes within a sugar manufacturing facility. Built with React and Tailwind CSS, this platform simulates real-time physics-based IIoT sensor telemetry, AI-driven predictive maintenance, and autonomous hybrid-control systems across a sprawling 6-stage milling pipeline.
 
-## 🌟 Key Features
+## Key Features
 
 * **Physics-Engine Simulation Context (`SugarMillContext.jsx`)**: 
   A centralized global state manager that simulates live sensor fluctuations (Pressure, Temp, Load, pH) every 3 seconds, mimicking the chaotic reality of heavy industrial machinery. Total daily tonnage and derived financial outputs (ROI, Savings) dynamically calculate strictly from this root physics engine.
@@ -23,7 +23,7 @@ SugarMill AI is a state-of-the-art enterprise monitoring platform built to visua
   * Register new SCADA endpoints in the **System & Infrastructure** network visualizer.
   * Audit all immutable operator changes across the **Security Logs**.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend Framework:** React 18 (Vite)
 - **Styling:** Tailwind CSS (Vanilla)
@@ -31,7 +31,7 @@ SugarMill AI is a state-of-the-art enterprise monitoring platform built to visua
 - **Icons:** Lucide-React
 - **Architecture:** Context API (Global State)
 
-## 📦 Local Installation
+## Local Installation
 
 To run the SugarMill AI platform locally:
 
@@ -60,7 +60,7 @@ To run the SugarMill AI platform locally:
    
 > **Note:** To access the secure `/admin-panel` routes, use the demo PIN `1234`.
 
-## 📁 Project Architecture
+## Project Architecture
 
 The application is structured to strictly separate pure UI presentation logic from the mathematical IIoT simulation.
 
@@ -79,7 +79,7 @@ src/
 └── index.css            # Global Tailwind Directives
 ```
 
-## 🔐 Admin Authentication System
+## Admin Authentication System
 The administrative interface utilizes a robust `sessionStorage` guard logic to enforce a strict visual boundary between standard factory operators and system engineers. The `AdminLayout.jsx` wrapper validates the lifecycle of the token and automatically forces an ejection unmount when exiting the panel.
 
 ---
