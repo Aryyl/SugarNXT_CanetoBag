@@ -4,7 +4,7 @@ This document provides a comprehensive overview of the **SugarMill AI** (SugarNX
 
 ---
 
-## 🏭 1. What The Platform Does
+## 1. What The Platform Does
 
 SugarMill AI is an advanced, physics-simulated industrial monitoring dashboard for modern sugar manufacturing facilities. It replicates the behavior of a heavy industrial pipeline without requiring a physical backend.
 
@@ -17,7 +17,7 @@ Its core purposes are:
 
 ---
 
-## 🛠️ 2. How It Is Built (Tech Stack)
+## 2. How It Is Built (Tech Stack)
 
 The application is a pure front-end Single Page Application (SPA), engineered to feel like a deeply integrated enterprise SCADA system.
 
@@ -30,7 +30,7 @@ The application is a pure front-end Single Page Application (SPA), engineered to
 
 ---
 
-## 🧠 3. Core Engine: The Simulation Context
+## 3. Core Engine: The Simulation Context
 
 The beating heart of the platform is `src/context/SugarMillContext.jsx`. Because there is no mechanical backend, this file acts as a **Physics & Financial Simulation Engine**.
 
@@ -43,7 +43,7 @@ The beating heart of the platform is `src/context/SugarMillContext.jsx`. Because
 
 ---
 
-## 🏗️ 4. What Was Built (Component Architecture)
+## 4. What Was Built (Component Architecture)
 
 The application is cleanly divided into two primary environments: The **Operator Visors** and the **Control Admin Panel**.
 
@@ -69,7 +69,7 @@ A strict management zone wrapped in `AdminLayout.jsx`.
 
 ---
 
-## 📂 5. Directory Mapping
+## 5. Directory Mapping
 
 ```text
 src/
